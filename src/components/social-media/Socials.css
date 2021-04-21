@@ -1,0 +1,33 @@
+.modal {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 30vh;
+    width: 70vw;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 20%;
+    box-shadow: 0 0 10px 10px rgb(139, 137, 137);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;        
+}
+
+.modal div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    /* background-color: rgba(111, 115, 119, 0.575); */
+    
+}
+
+.material-icons {
+    font-size: 150px;
+    color: red;    
+    cursor: pointer;
+}
+
+.jumbo-like .material-icons {
+    color: rgb(87, 6, 6);
+}
